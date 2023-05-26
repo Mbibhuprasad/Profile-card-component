@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Hanken+Grotesk:wght@500&family=Karla&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Outfit:wght@300&family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: hsl(185, 75%, 39%);
+    --paragraf: hsl(0, 0%, 59%);
+    --heading: hsl(229, 23%, 23%);
+}
+
+body {
+    font-family:Kumbh Sans;
+    background-image: url("images/bg-pattern-top.svg") , url("images/bg-pattern-bottom.svg");
+    background-color: var(--bg-color);
+    background-repeat: no-repeat ,no-repeat;
+    background-position: right 50vw bottom 50vh ,left 50vw top 50vh;
+}
+
+main {
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    flex-basis: 20rem;
+    margin: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+#content-imag {
+    width: 100%;
+}
+
+#profile-imag {
+    border-radius: 50%;
+    width: 5rem;
+    margin-top: -12% ;
+    border: 5px solid white;
+}
+
+.middle-block h1 {
+    font-size: 1.3rem;
+    color: var(--heading);
+    margin-top: 1rem;
+}
+
+.middle-block p {
+    font-size: 0.9rem;
+    color: var(--paragraf);
+    margin: 0.7rem 0 1.2rem 0 ;
+}
+
+span {
+    color: var(--paragraf);
+}
+
+.buttom-block {
+    display: flex;
+    padding: 1.6rem;
+    border-top: 1px solid rgb(217, 217, 217);
+    justify-content: space-around;
+}
+
+.buttom-block h1 {
+    font-size: 1.1rem;
+    color: var(--heading);
+    
+}
+
+.buttom-block p {
+    font-size: 0.7rem;
+    color: var(--paragraf);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
